@@ -1,0 +1,55 @@
+-Dont Depend on the Intelligence of your audience
+-Should know the essence. Should be able to explain in 10 secs to 1 min
+
+
+Question 
+T: topic
+Q: question
+S: significance
+
+Answer
+c: claim
+r: reason
+e: evidence
+
+
+Lecture 2
+
+Observation
+Hypothesis
+Predict
+Test
+
+
+Topic
+
+Reducing Latency in 5G Networks using Deep Learning
+
+Question
+
+How highly congested 5G networks can reduce the overall latency? Can they use some intelligence to predict resource requirements on the individual entities in a network? Can a network past help us predict how it will behave in the future? If so, then why? Why not otherwise? If we want to do some optimization, which specific entity should we optimize on? What should be kept constant in optimization?
+
+Significance
+
+Such a prediction can have big impact on congested 5G use cases such as high data rate gaming and streaming to autonomous cooperative driving. Such optimization of resource over a congested network  will help to add to the overall aim of 5G or 6G i.e. in so many words, "To reduce the Latency".
+
+
+
+
+
+
+Claim
+
+By studying the traffic pattern of the past in the network, one with reasonable confidence predict the traffic pattern in the future, hence design a optimizer which makes decisions in the network in an informed manner 
+
+ 
+
+Reason 
+
+Time series forecasting helps us in achieving the claim we have made. Consider a single user in the network. That user's requirement follows a pattern given some time interval. By recognizing such patterns, the scheduler which is responsible for scheduling various resources in the network, can take an informed decision of whether being more fair to some and less fair to others at that time instance. This decision making will happen in real time for all users and at each interval which would be of the order of milliseconds, such time series prediction will give us the best resource   utilization for all in the network.
+
+ 
+
+Evidence
+
+With a big enough simulation one would be able to see that with 5 users with 10 m/s velocity moving randomly in 100m x 100m area be able to reduce the latency by 72 %.
